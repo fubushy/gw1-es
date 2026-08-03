@@ -22,10 +22,14 @@ body {
 }
 
 .title {
+
     color: #d4af37;
     font-size: 55px;
     text-align: center;
     margin-top: 80px;
+    letter-spacing: 2px;
+
+}
 }
 
 .subtitle {
@@ -70,9 +74,14 @@ body {
 }
 
 .logo {
+
     font-size: 38px;
     color: #d4af37;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 700;
+
+}
 }
 
 .tagline {
@@ -164,7 +173,9 @@ body::before {
 
 .card h2 {
 
-    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', serif;
+
+}
 
 }
 
@@ -173,12 +184,4 @@ body::before {
 
     font-family: 'Lora', serif;
 
-}
-body {
-    font-family: 'Lora', serif !important;
-}
-
-.logo,
-.title {
-    font-family: 'Cinzel Decorative', serif !important;
 }
