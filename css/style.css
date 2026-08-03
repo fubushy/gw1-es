@@ -185,3 +185,79 @@ body::before {
     font-family: 'Lora', serif;
 
 }
+.campaign-card {
+
+    position: relative;
+
+    height: 360px;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(212,175,55,0.5);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.5);
+
+}
+
+
+.campaign-card img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+.campaign-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+    padding: 30px;
+
+    background:
+        linear-gradient(
+            transparent,
+            rgba(0,0,0,0.85)
+        );
+
+}
+
+
+.campaign-overlay h2 {
+
+    color: #d4af37;
+
+    font-family: 'Cinzel Decorative', serif;
+
+    text-shadow:
+        0 3px 8px black;
+
+}
+
+
+.campaign-overlay p {
+
+    color: #eee;
+
+    font-family: 'Lora', serif;
+
+    line-height: 1.6;
+
+    text-shadow:
+        0 2px 5px black;
+
+}
