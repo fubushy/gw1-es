@@ -12,7 +12,7 @@ body {
     background-position: center;
 
     color: #e8e8e8;
-    font-family: Georgia, serif;
+    font-family: 'Lora', serif;
 }
 
 .container {
@@ -127,4 +127,50 @@ body::before {
         );
 
     pointer-events: none;
+}
+.logo {
+
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+}
+
+
+.title {
+
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 700;
+
+}
+
+
+.subtitle {
+
+    font-family: 'Lora', serif;
+    font-style: italic;
+
+}
+
+
+.nav a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+
+.card h2 {
+
+    font-family: 'Cinzel', serif;
+
+}
+
+
+.card p {
+
+    font-family: 'Lora', serif;
+
 }
