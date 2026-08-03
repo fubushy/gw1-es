@@ -70,3 +70,37 @@ body {
     font-style: italic;
     margin-top: 10px;
 }
+.cards {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 50px;
+
+}
+
+
+.card {
+
+    background: #171a21;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 25px;
+    transition: 0.3s;
+
+}
+
+
+.card:hover {
+
+    transform: translateY(-5px);
+    border-color: #d4af37;
+
+}
+
+
+.card h2 {
+
+    color: #d4af37;
+
+}
